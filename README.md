@@ -4,7 +4,7 @@
 There is one chopstick between each philosopher. A philosopher may eat if he can pick up the two chopsticks adjacent to him. 
 One chopstick may be picked up by any one of its adjacent followers but not both.
 
-## Semaphore Solution to Dining Philosopher –
+## Semaphore Solution to Dining Philosopher – Problem
 
 -There are three states of the philosopher: THINKING, HUNGRY, and EATING. Here there are two semaphores: 
 Mutex and a semaphore array for the philosophers. Mutex is used such that no two philosophers may access the pickup or putdown at the same time. 
